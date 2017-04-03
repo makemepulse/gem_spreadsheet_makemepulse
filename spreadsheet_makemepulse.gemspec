@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Antoine Ughetto"]
   spec.email         = ["antoine@makemepulse.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Generate YML files from Google spreadsheet"
+  spec.description   = "Generate YML files from Google spreadsheet"
+  spec.homepage      = "http://www.makemepulse.com"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
