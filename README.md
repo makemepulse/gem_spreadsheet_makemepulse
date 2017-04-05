@@ -28,6 +28,11 @@ Create a configuration file in `config/translations.yml`:
       global.yml: "https://docs.google.com/spreadsheet/pub?key=ab43...34f3&single=true&gid=0&output=csv"
 
 
+Load the spreadsheet and transforms them in a YAML : 
+
+    bundle exec rake spreadsheet:load
+    
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
