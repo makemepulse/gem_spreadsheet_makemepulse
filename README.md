@@ -25,8 +25,9 @@ Or install it yourself as:
 Create a configuration file in `config/translations.yml`:
 
     files:
-      global.yml: "https://docs.google.com/spreadsheet/pub?key=ab43...34f3&single=true&gid=0&output=csv"
+      global.yml: "https://docs.google.com/spreadsheets/d/1VAVEdxP2M8kXgDylLvHcOI11Zo5jWA7P5ZKZQ7tpW5A/pub?output=xlsx"
 
+You have to publish the spreadsheet in XLSX format.
 
 Load the spreadsheet and transforms them in a YAML : 
 
